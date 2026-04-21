@@ -1,0 +1,48 @@
+Subject: Welcome, Patron.
+
+---
+
+Welcome, Patron.
+
+Your support is outsized, and on behalf of every reader whose free
+subscription is made possible by the Patron tier — thank you.
+
+Your membership includes everything at the Member tier, plus:
+
+
+THE ANNUAL BOOK, INSCRIBED
+
+Each December we print the year's issues as a hardcover and send it
+to every Patron. Your name is set in type on the inside cover.
+
+We will email you in October to confirm your shipping address and
+to ask how you would like your name to appear. If you prefer a
+spelling different from the one on your payment method, tell us
+any time before that October confirmation.
+
+
+YOUR MEMBERS READING ROOM
+
+The full archive — including older issues beyond the free six-month
+window — lives at:
+https://ctleed.github.io/monograph/members.html
+
+This URL is unlisted. Please do not share it publicly. If it begins
+circulating we will rotate it and email Patrons the new one.
+
+
+HOUSEKEEPING
+
+Your receipt is on its way from Stripe. To pause, cancel, or update
+your card, use the link in any Stripe receipt, or write to
+[contact email].
+
+
+— The Editors
+
+
+---------------------------------------------------------------
+Monograph Editorial
+[your postal address]
+
+Unsubscribe: {{UNSUBSCRIBE_LINK}}

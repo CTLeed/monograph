@@ -1,0 +1,46 @@
+Subject: № {{ISSUE_NUM}} — {{ISSUE_TITLE}}
+
+---
+
+---------------------------------------------------------------
+ MONOGRAPH
+ Vol. {{VOLUME}}  ·  № {{ISSUE_NUM}}
+ Tuesday, {{PUBLISH_DATE}}
+---------------------------------------------------------------
+
+
+{{ISSUE_TITLE}}
+
+{{DEK}}
+
+By The Editors   ·   Subject: {{SUBJECT}}   ·   {{READ_TIME}} min read
+
+---------------------------------------------------------------
+
+
+{{BODY}}
+
+
+---------------------------------------------------------------
+
+Read on the web:
+{{ISSUE_URL}}
+
+Browse the archive:
+https://ctleed.github.io/monograph/archive.html
+
+Next week:
+{{NEXT_WEEK_TEASE}}
+
+
+— The Editors
+
+
+---------------------------------------------------------------
+Monograph Editorial
+[your postal address]
+
+Forward freely. To upgrade, cancel, or switch tiers:
+https://ctleed.github.io/monograph/pricing.html
+
+Unsubscribe: {{UNSUBSCRIBE_LINK}}

@@ -1,0 +1,48 @@
+Subject: You are on the list.
+
+---
+
+Welcome to Monograph.
+
+You are on the list. The next Tuesday essay will arrive here at
+7 AM Eastern, and every Tuesday after that, until you ask us to stop.
+
+
+WHAT TO EXPECT
+
+One product, examined like architecture. Roughly 2,000 words, once
+a week, written slowly and edited carefully. No listicles, no hot
+takes, no Tuesdays off.
+
+
+WHILE YOU WAIT
+
+The latest issue:
+https://ctleed.github.io/monograph/issues/024-linear.html
+
+The archive:
+https://ctleed.github.io/monograph/archive.html
+
+
+WHEN YOU WANT MORE
+
+A paid membership unlocks the complete archive, the quarterly
+long-form, and the annual printed book. Details at:
+https://ctleed.github.io/monograph/pricing.html
+
+
+ONE HOUSEKEEPING NOTE
+
+If this letter landed in your spam folder, please drag it into your
+primary inbox — otherwise next Tuesday's will end up there too.
+Adding the sender address to your contacts is the sturdiest fix.
+
+
+— The Editors
+
+
+---------------------------------------------------------------
+Monograph Editorial
+[your postal address]
+
+Unsubscribe: {{UNSUBSCRIBE_LINK}}

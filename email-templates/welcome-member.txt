@@ -1,0 +1,47 @@
+Subject: Welcome, Member.
+
+---
+
+Welcome to Monograph, properly.
+
+Your membership is active. From here on:
+
+  — Every Tuesday essay arrives at 7 AM Eastern.
+  — The complete archive is open to you, including issues that have
+    aged beyond the free six-month window.
+  — The quarterly long-form essay is sent to this address as it
+    publishes (four times a year, usually 6,000 to 8,000 words on a
+    single product or pattern).
+  — Members who upgrade to the Patron tier receive the annual
+    printed book with their name set in type on the inside cover.
+
+
+YOUR MEMBERS READING ROOM
+
+Every issue, including older ones, lives at:
+https://ctleed.github.io/monograph/members.html
+
+Bookmark it. This URL is unlisted, not authenticated — please do
+not share it publicly. If it begins circulating, we will rotate
+the URL and email members the new one.
+
+
+HOUSEKEEPING
+
+Your receipt is on its way from Stripe — save it for your records.
+
+To pause, cancel, switch between monthly and annual, or update your
+card, the link in any Stripe receipt takes you to a customer portal.
+Or write to [contact email] and we will sort it within the day.
+
+
+Thank you for making this work possible.
+
+— The Editors
+
+
+---------------------------------------------------------------
+Monograph Editorial
+[your postal address]
+
+Unsubscribe: {{UNSUBSCRIBE_LINK}}
