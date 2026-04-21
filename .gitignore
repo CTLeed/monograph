@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Publish-step backups (rollback artifacts; local only)
+*.bak
+
+# Working files — local to the research/draft pipeline, not for the public site
+drafts/
+notes/
+backlog.txt

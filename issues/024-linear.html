@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; script-src 'self'; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'; object-src 'none'; upgrade-insecure-requests">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="robots" content="index, follow">
+<meta name="color-scheme" content="light">
+<meta name="theme-color" content="#F1ECDD">
+<title>№ 24 — The Cult of Craft · Monograph</title>
+<meta name="description" content="How Linear turned issue tracking into a moving target the rest of the industry cannot quite catch.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Newsreader:ital,opsz,wght@0,6..72,300..700;1,6..72,300..700&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="../assets/css/main.css">
+
+<link rel="canonical" href="/issues/024-linear.html">
+</head>
+<body>
+
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="masthead" role="banner">
+  <div class="shell masthead-inner">
+    <div class="masthead-left">
+      <span>Vol. III · №&nbsp;24</span>
+      <span>Tuesday, 14 April 2026</span>
+    </div>
+    <h1 class="wordmark"><a href="../index.html" aria-label="Monograph, home">Monograph</a></h1>
+    <nav class="masthead-right" aria-label="Primary">
+      <a href="../archive.html">Issues</a>
+      <a href="../about.html" data-minor>About</a>
+      <a href="../pricing.html">Subscribe</a>
+    </nav>
+  </div>
+  <div class="masthead-sub">
+    <div class="masthead-sub-inner">
+      <span>A weekly correspondence on software worth studying.</span>
+      <span>One product · every Tuesday · read slowly</span>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+<article class="article">
+
+<header class="article-head">
+  <div class="shell">
+    <p class="article-meta">
+      <span>Issue <span class="accent">№&nbsp;24</span></span>
+      <span>Volume III</span>
+      <span>14 April 2026</span>
+      <span>12 min read</span>
+    </p>
+    <h1 class="article-title">The Cult of <em>Craft.</em></h1>
+    <p class="article-dek">How Linear turned issue tracking &mdash; the most thankless category in software &mdash; into a moving target the rest of the industry cannot quite catch.</p>
+    <p class="article-byline">
+      <span>Essay by <strong>The Editors</strong></span>
+      <span>Subject: <strong>Linear</strong></span>
+      <span>Filed: San Francisco</span>
+    </p>
+  </div>
+</header>
+
+<div class="article-body">
+  <div class="shell">
+
+    <p>There is a peculiar thing about issue trackers: nobody has ever bragged about one. They are the dental floss of software &mdash; necessary, unloved, quietly carried from job to job. Ask a room of engineers what they use and you will get the same weary shrug. And yet Linear, a tool whose job is to hold a list of bugs, has been the subject of more designer bookmarks, more CTO Twitter threads, and more engineering team migrations than any product of its type in a decade.</p>
+
+    <p>The usual explanation is speed. Linear is fast, the story goes, and in a world of Jira fatigue, fast wins. But that reading is lazy. Speed is the <em>consequence</em> of Linear&rsquo;s argument, not its argument. The argument is that an issue tracker is not a project-management tool, a reporting tool, or a stakeholder-communications tool. It is a tool for the team doing the work &mdash; and that team is the customer. Everything else follows from refusing to blur that one sentence.</p>
+
+    <h2>A refusal dressed as a feature set</h2>
+
+    <p>When Linear launched in 2019 it was, by the standards of its category, almost aggressively underfeatured. There was no custom-field designer, no ticket-workflow builder, no sprint capacity model, no Gantt view, no &lsquo;portfolios of portfolios.&rsquo; The entire application could be operated from the keyboard. Every product-market conversation pushed toward adding the missing surface area; every internal decision seemed to refuse it.</p>
+
+    <p>The refusal was not aesthetic. It was structural. Linear&rsquo;s founders had watched issue trackers drift, over twenty years, from instruments used by engineers into dashboards read by directors &mdash; and they had watched the engineers pay the tax. Every configurable field is a question someone has to answer at 4 p.m. on a Thursday. Every custom workflow is a second job. A tool in which the engineer is the customer does not ask the engineer to configure anything; it decides, and the decision is good, and the engineer keeps moving.</p>
+
+    <blockquote>The strongest feature of Linear is not anything it added. It is a twenty-year backlog of other people&rsquo;s features that it declined.</blockquote>
+
+    <p>The decline matters because it is expensive. Every refused feature is a deal Linear&rsquo;s sales team cannot close this quarter. There are companies that will not buy Linear because it will not render a 48-column program-management grid. Those companies buy Jira. Linear does not seem to mind.</p>
+
+    <h2>The command bar as thesis statement</h2>
+
+    <p>Open Linear on any screen and press <code>Cmd-K</code>. Whatever you needed to do is there. Assign, label, move between states, triage, change priority, schedule, link, branch. Nine out of ten actions live in a single palette. This is not a feature; it is an argument about what an interface should reward. It rewards the user who is paying attention.</p>
+
+    <p>Competitors have since shipped command bars. None of them feel right, because a command bar is a consequence, not a widget. It requires that every command in the product be addressable, nameable, and atomic &mdash; which requires, in turn, that the product have a small, well-shaped vocabulary of actions. Most issue trackers do not have that vocabulary. They have a pile of forms.</p>
+
+    <hr class="sectbreak">
+
+    <h3>On the cycles</h3>
+
+    <p>Linear&rsquo;s sprint abstraction is called a <em>cycle</em>. It is auto-advancing, fixed-length, and its carryover rules are set by the tool rather than by the team. This is another refusal dressed as a feature: it takes the quarterly ritual of &lsquo;how should we run our sprints?&rsquo; and throws it out. You can have any cycle you want, so long as it is the one Linear has decided on.</p>
+
+    <p>The trade-off is real. Teams with exotic rituals find this confining. But the median team gains something they did not know they needed: a rhythm that survives departures. When the engineering manager quits, the cycle keeps going. When the product manager takes leave, the cycle keeps going. The culture of the team is embedded in the tool, and the tool protects the team from the loss of any single person&rsquo;s attention.</p>
+
+    <div class="pullquote">
+      <p class="pullquote-text">Linear&rsquo;s best features are not in the product. They are in what the product is willing to decide for you.</p>
+    </div>
+
+    <h2>The cost of caring about milliseconds</h2>
+
+    <p>Every interaction in Linear is engineered to complete in under 100&thinsp;ms. There is an in-memory local store, a server-side sync engine, optimistic UI, and a painful amount of care around the tail latency of every keystroke. This is visible to anyone who has used it and easy to dismiss as vanity engineering.</p>
+
+    <p>It is not vanity. It is an economic argument. The thing being optimised is not the server bill; it is the user&rsquo;s willingness to file a thought. If opening a ticket takes three seconds, people will batch their thoughts until the end of the day and write them up from memory, badly. If opening a ticket takes eighty milliseconds, people will write tickets <em>while they are having the idea</em>, which is a different and much more useful kind of ticket. The performance is the feature because the performance changes what gets written down.</p>
+
+    <h2>The taste tax</h2>
+
+    <p>Linear is beautiful. This is a sentence that feels unserious to write about issue tracking and yet the phenomenon is real: designers adopt Linear and then evangelise it to the rest of the engineering org, which is not how software-procurement normally works. The reason is that Linear is the first tool in its category that does not feel like it was designed by a committee of PMs who were each defending a different customer&rsquo;s configuration. It feels like someone sat down and cared about the edges.</p>
+
+    <p>That care compounds. Founders who care about the edges attract engineers who care about the edges, which attracts designers who care about the edges, which makes a product that the kind of customer who cares about edges wants to buy. The cult of craft is a hiring strategy, a marketing strategy, and a moat, all at once. Competitors cannot add &lsquo;craft&rsquo; as a line item on the roadmap.</p>
+
+    <hr class="sectbreak">
+
+    <h3>What Linear has not yet solved</h3>
+
+    <p>The product has weaknesses and they are interesting. Roadmapping for stakeholders outside the engineering org is still awkward; Linear&rsquo;s insistence that the engineering team is the customer means the VP of Sales, who also wants to know when the feature ships, gets a worse view. Reporting is thin by design and increasingly difficult to justify that way as teams grow past fifty. The Projects layer, added later, is the place where Linear&rsquo;s model of the world starts to strain: it wants to remain an engineer&rsquo;s tool, but it is being asked to become a company&rsquo;s tool.</p>
+
+    <p>This is the genuine risk. Every previous issue tracker began with engineers and ended as a configuration engine for people who did not code. The pressure is not ideological; it is arithmetic. A company with four hundred engineers has a thousand stakeholders, and the stakeholders bring money. Linear has so far resisted the drift with an almost religious discipline. Whether it can continue to, at eight-digit ARR and climbing, is the open question of its second act.</p>
+
+    <h2>What to learn</h2>
+
+    <p>The lesson of Linear is not that every product should be a keyboard-first, command-bar-driven, sub-100&thinsp;ms application. The lesson is that in a mature category, the strongest position is a small, clear argument about who the customer is, executed with enough discipline that the argument survives the sales cycle.</p>
+
+    <p>If you are building in a category where every competitor is adding configuration, the under-specified product is probably the correct product. If you are building in a category where every competitor is adding integrations, the product that does three things excellently is probably the correct product. The hard part is the refusal, held for long enough that it becomes the story.</p>
+
+    <p>Linear has held the refusal for seven years. It has become the story. Whether the next seven years dilute it or deepen it is, this week, the only question worth watching in the category.</p>
+
+  </div>
+</div>
+
+<footer class="article-footer">
+  <div class="shell article-footer-grid">
+    <div>
+      <h4>Read next Tuesday</h4>
+      <p>Next week, №&nbsp;25: how Superhuman chose a price &mdash; and why the price was the product.</p>
+    </div>
+    <div>
+      <form class="signup-form" data-signup data-source="issue-24" action="/api/subscribe" method="post" novalidate style="box-shadow:6px 6px 0 var(--ink);">
+        <label class="label" for="email-24">Get next Tuesday&rsquo;s essay</label>
+        <div class="field">
+          <input type="email" id="email-24" name="email" placeholder="reader@example.com" autocomplete="email" maxlength="254" spellcheck="false" required>
+          <button type="submit" class="btn">Subscribe</button>
+        </div>
+        <div class="hp-field" aria-hidden="true">
+          <label for="hp-24">Leave this field empty</label>
+          <input type="text" id="hp-24" name="website" tabindex="-1" autocomplete="off">
+        </div>
+        <p class="form-status" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </div>
+</footer>
+
+<section class="related">
+  <div class="shell">
+    <h3>Previously on Monograph</h3>
+    <div class="related-grid">
+
+      <a class="issue-card" href="023-arc.html">
+        <div class="thumb">
+          <div class="cover cover--arc">
+            <div class="cover-head"><span>Monograph</span><span>№&nbsp;23</span></div>
+            <div class="cover-title">Re&#8209;imagining<br>the Tab.</div>
+            <div class="cover-foot"><span>Arc Browser</span><span>2026</span></div>
+            <div class="cover-num">23</div>
+          </div>
+        </div>
+        <div class="meta"><span>№&nbsp;23</span><span>9 min</span></div>
+        <h3>Re-imagining the Tab</h3>
+        <p class="subject">Arc Browser</p>
+      </a>
+
+      <a class="issue-card" href="022-raycast.html">
+        <div class="thumb">
+          <div class="cover cover--raycast">
+            <div class="cover-head"><span>Monograph</span><span>№&nbsp;22</span></div>
+            <div class="cover-title">The Keyboard<br>as Interface.</div>
+            <div class="cover-foot"><span>Raycast</span><span>2026</span></div>
+            <div class="cover-num">22</div>
+          </div>
+        </div>
+        <div class="meta"><span>№&nbsp;22</span><span>10 min</span></div>
+        <h3>The Keyboard as Interface</h3>
+        <p class="subject">Raycast</p>
+      </a>
+
+      <a class="issue-card" href="021-things.html">
+        <div class="thumb">
+          <div class="cover cover--things">
+            <div class="cover-head"><span>Monograph</span><span>№&nbsp;21</span></div>
+            <div class="cover-title">Seventeen<br>Years of No.</div>
+            <div class="cover-foot"><span>Things 3</span><span>2026</span></div>
+            <div class="cover-num">21</div>
+          </div>
+        </div>
+        <div class="meta"><span>№&nbsp;21</span><span>11 min</span></div>
+        <h3>Seventeen Years of No</h3>
+        <p class="subject">Things 3</p>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+</article>
+
+</main>
+
+<footer class="colophon" role="contentinfo">
+  <div class="shell colophon-grid">
+    <div>
+      <p class="colophon-mark">Monograph.</p>
+      <p>A weekly editorial on the software worth studying. Written, edited, and published in Brooklyn, New York. Typeset in Instrument Serif and Newsreader. Printed, sometimes, on paper.</p>
+    </div>
+    <div>
+      <h4>Read</h4>
+      <ul>
+        <li><a href="../archive.html">Archive</a></li>
+        <li><a href="024-linear.html">Latest Issue</a></li>
+        <li><a href="#">RSS feed</a></li>
+        <li><a href="#">Plain-text edition</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>About</h4>
+      <ul>
+        <li><a href="../about.html">The Publication</a></li>
+        <li><a href="../about.html#ethics">Ethics &amp; Ethos</a></li>
+        <li><a href="../about.html#colophon">Colophon</a></li>
+        <li><a href="../pricing.html">Subscribe</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Elsewhere</h4>
+      <ul>
+        <li><a href="#" rel="noopener noreferrer">Mastodon</a></li>
+        <li><a href="#" rel="noopener noreferrer">Bluesky</a></li>
+        <li><a href="mailto:editor@monograph.press">Write to the editor</a></li>
+        <li><a href="#" rel="noopener noreferrer">Sponsor Monograph</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="shell colophon-bottom">
+    <span>© <span data-year>2026</span> Monograph Editorial Ltd. All correspondence welcome.</span>
+    <span>Est. Volume I, Spring 2024</span>
+  </div>
+</footer>
+
+<script src="../assets/js/main.js" defer></script>
+<script src="../assets/js/signup.js" defer></script>
+</body>
+</html>

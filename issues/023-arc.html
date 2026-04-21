@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; script-src 'self'; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'; object-src 'none'; upgrade-insecure-requests">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="robots" content="index, follow">
+<meta name="color-scheme" content="light">
+<meta name="theme-color" content="#F1ECDD">
+<title>№ 23 — Re-imagining the Tab · Monograph</title>
+<meta name="description" content="Arc Browser's quiet rebellion against the browser interface — and why it might have lost on purpose.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Newsreader:ital,opsz,wght@0,6..72,300..700;1,6..72,300..700&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="../assets/css/main.css">
+
+<link rel="canonical" href="/issues/023-arc.html">
+</head>
+<body>
+
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="masthead" role="banner">
+  <div class="shell masthead-inner">
+    <div class="masthead-left">
+      <span>Vol. III · №&nbsp;23</span>
+      <span>Tuesday, 7 April 2026</span>
+    </div>
+    <h1 class="wordmark"><a href="../index.html" aria-label="Monograph, home">Monograph</a></h1>
+    <nav class="masthead-right" aria-label="Primary">
+      <a href="../archive.html">Issues</a>
+      <a href="../about.html" data-minor>About</a>
+      <a href="../pricing.html">Subscribe</a>
+    </nav>
+  </div>
+  <div class="masthead-sub">
+    <div class="masthead-sub-inner">
+      <span>A weekly correspondence on software worth studying.</span>
+      <span>One product · every Tuesday · read slowly</span>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+<article class="article">
+
+<header class="article-head">
+  <div class="shell">
+    <p class="article-meta">
+      <span>Issue <span class="accent">№&nbsp;23</span></span>
+      <span>Volume III</span>
+      <span>7 April 2026</span>
+      <span>9 min read</span>
+    </p>
+    <h1 class="article-title">Re-imagining<br>the <em>Tab.</em></h1>
+    <p class="article-dek">The Browser Company bet that the tab was the bug, not the feature. The bet lost; the argument did not.</p>
+    <p class="article-byline">
+      <span>Essay by <strong>The Editors</strong></span>
+      <span>Subject: <strong>Arc Browser</strong></span>
+      <span>Filed: New York</span>
+    </p>
+  </div>
+</header>
+
+<div class="article-body">
+  <div class="shell">
+
+    <p>Every generation of software has a noble failure: a product that argued a case correctly, shipped honestly, and lost anyway. Arc is a strong candidate for this generation&rsquo;s version. Here was a browser that reimagined almost every primitive of the category and watched the category decline to change. That is an outcome worth sitting with, because the reasons for it are not the reasons you might expect.</p>
+
+    <p>Arc&rsquo;s founding observation was simple: the tab is thirty years old, and nobody likes their tabs. We open them, we forget them, we declare tab bankruptcy, we joke about it on social networks, we continue to pile them on. The tab bar is a graveyard of intentions. A rational designer, seeing this, would try something else.</p>
+
+    <h2>A sidebar instead of a bar</h2>
+
+    <p>Arc&rsquo;s first move was to rotate the tab strip by ninety degrees. This sounds cosmetic; it was not. A vertical strip can hold more items than a horizontal one, which means Arc could introduce a vocabulary of tab types: <em>pinned</em>, <em>favourited</em>, <em>today</em>. The last of these &mdash; today&rsquo;s tabs &mdash; could be auto-cleared at midnight, because tabs, Arc decided, were ephemera, not artefacts.</p>
+
+    <p>This was the first real argument about browser state since Chrome. Chrome had normalised the idea that every open page is equally important and should persist until you close it. Arc said: no, most of these pages are just things you looked at today, and tomorrow you will not need them. Auto-clear the list and nothing of value will be lost.</p>
+
+    <blockquote>The tab was not a thing you kept. The tab was a thing you looked at, and then were done with.</blockquote>
+
+    <p>Users who came to Arc late remember the small shock of the first midnight: waking up to find yesterday&rsquo;s tabs gone and, to their surprise, not missing them. It is one of the clearest moments of &lsquo;I did not know I wanted this&rsquo; in recent software. And it was, ultimately, not enough.</p>
+
+    <h2>What Arc added</h2>
+
+    <p>Spaces let you keep different sets of pinned tabs for different parts of your life. Little Arc let a single link open without dragging you into the sidebar. Easels and Notes put a lightweight canvas next to the browser, the way browsers should have had all along. The command bar, again (see №&nbsp;22), put every action one keystroke away. And Boosts let users restyle any page they visited, which was the most quietly subversive feature in the product: a reminder that the web is <em>your</em> document.</p>
+
+    <p>Each of these was a legitimate rethinking. Many were clearly correct &mdash; so clearly that Chrome, Safari, and Edge have since shipped versions of them, usually worse. And yet, by 2025, Arc&rsquo;s parent company had paused development to pursue a different bet entirely.</p>
+
+    <h2>Why the argument lost</h2>
+
+    <p>There are three conventional stories. None is complete.</p>
+
+    <p>The first story is that the browser is a bad category to disrupt because switching costs are ambient &mdash; saved passwords, extensions, muscle memory, autofill, the quiet colony of a default. This is true but was true of every competitor that tried, including the ones that succeeded (Firefox in 2004, Chrome in 2008). It does not uniquely explain Arc.</p>
+
+    <p>The second story is that Arc over-indexed on power users. There is something to this. The sidebar, the keybindings, the Spaces model &mdash; these were designed for people who think about their workflow as a problem. But the billion people Arc would have needed to displace Chrome do not think about their workflow as a problem; they think about it as a set of websites. Arc&rsquo;s offer to that user was more interesting, and therefore harder.</p>
+
+    <div class="pullquote">
+      <p class="pullquote-text">Arc asked users to change their relationship with the browser. Most users do not have a relationship with the browser.</p>
+    </div>
+
+    <p>The third story, the one we find most persuasive, is that Arc was not a browser. Arc was an operating system for the web, and an operating system needs either a platform subsidy (Chrome had Google&rsquo;s money) or a lock-in (Safari had Apple&rsquo;s silicon). Arc had neither. Every feature it shipped flowed downhill to Chromium, which is free. Every moat it dug was, eventually, a canal.</p>
+
+    <h2>The small victories</h2>
+
+    <p>The argument itself &mdash; that tabs are ephemera, that the browser should have spaces, that a command bar belongs in the URL field &mdash; will outlast the product. You can already see this in Safari 18 (tab groups that auto-hide), in Chrome&rsquo;s tab memory features, in Edge&rsquo;s vertical tabs, in every pitch deck for a &lsquo;browser for X&rsquo;. The Overton window moved. Arc moved it.</p>
+
+    <hr class="sectbreak">
+
+    <h3>On losing on purpose</h3>
+
+    <p>There is a reading of Arc in which its &lsquo;failure&rsquo; is generative. The Browser Company shipped a design statement, proved the ideas, and then pivoted to a different, possibly larger thesis about agentic browsing. If the company lives, the browser might be remembered the way the Newton is remembered: a prototype that made the real thing (the iPhone) possible.</p>
+
+    <p>We are not sure. The Newton analogy is flattering and probably too generous. What is certainly true is that Arc&rsquo;s team left a body of design thinking more substantial than most browsers produce in a decade, and that the next browser that tries to rethink the tab will begin not from scratch but from Arc&rsquo;s mistakes, which is to say, from a head start.</p>
+
+    <h2>What to learn</h2>
+
+    <p>If you are pitching a re-imagining of a mature consumer category, you need not only a better product but a distribution wedge that does not depend on the quality of your ideas. The browser is an instructive warning: ideas are cheap, defaults are expensive, and a competitor with a $300&thinsp;billion-a-year search business can copy your best work at their leisure.</p>
+
+    <p>But if you are the kind of builder who would rather ship an argument than a moat &mdash; and there is honour in that, though rarely an IPO &mdash; Arc is the kind of company to study. They shipped. They were right about most of it. They are, for the moment, gone. The tab, for the moment, survives. The argument has not.</p>
+
+  </div>
+</div>
+
+<footer class="article-footer">
+  <div class="shell article-footer-grid">
+    <div>
+      <h4>Read next Tuesday</h4>
+      <p>Next week, №&nbsp;24: the cult of craft at Linear, and the arithmetic of refusing features.</p>
+    </div>
+    <div>
+      <form class="signup-form" data-signup data-source="issue-23" action="/api/subscribe" method="post" novalidate style="box-shadow:6px 6px 0 var(--ink);">
+        <label class="label" for="email-23">Get next Tuesday&rsquo;s essay</label>
+        <div class="field">
+          <input type="email" id="email-23" name="email" placeholder="reader@example.com" autocomplete="email" maxlength="254" spellcheck="false" required>
+          <button type="submit" class="btn">Subscribe</button>
+        </div>
+        <div class="hp-field" aria-hidden="true">
+          <label for="hp-23">Leave this field empty</label>
+          <input type="text" id="hp-23" name="website" tabindex="-1" autocomplete="off">
+        </div>
+        <p class="form-status" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </div>
+</footer>
+
+<section class="related">
+  <div class="shell">
+    <h3>Previously on Monograph</h3>
+    <div class="related-grid">
+
+      <a class="issue-card" href="022-raycast.html">
+        <div class="thumb">
+          <div class="cover cover--raycast">
+            <div class="cover-head"><span>Monograph</span><span>№&nbsp;22</span></div>
+            <div class="cover-title">The Keyboard<br>as Interface.</div>
+            <div class="cover-foot"><span>Raycast</span><span>2026</span></div>
+            <div class="cover-num">22</div>
+          </div>
+        </div>
+        <div class="meta"><span>№&nbsp;22</span><span>10 min</span></div>
+        <h3>The Keyboard as Interface</h3>
+        <p class="subject">Raycast</p>
+      </a>
+
+      <a class="issue-card" href="021-things.html">
+        <div class="thumb">
+          <div class="cover cover--things">
+            <div class="cover-head"><span>Monograph</span><span>№&nbsp;21</span></div>
+            <div class="cover-title">Seventeen<br>Years of No.</div>
+            <div class="cover-foot"><span>Things 3</span><span>2026</span></div>
+            <div class="cover-num">21</div>
+          </div>
+        </div>
+        <div class="meta"><span>№&nbsp;21</span><span>11 min</span></div>
+        <h3>Seventeen Years of No</h3>
+        <p class="subject">Things 3</p>
+      </a>
+
+      <a class="issue-card" href="020-figma.html">
+        <div class="thumb">
+          <div class="cover cover--figma">
+            <div class="cover-head"><span>Monograph</span><span>№&nbsp;20</span></div>
+            <div class="cover-title">The<br>Multiplayer<br>Bet.</div>
+            <div class="cover-foot"><span>Figma</span><span>2026</span></div>
+            <div class="cover-num">20</div>
+          </div>
+        </div>
+        <div class="meta"><span>№&nbsp;20</span><span>14 min</span></div>
+        <h3>The Multiplayer Bet</h3>
+        <p class="subject">Figma</p>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+</article>
+
+</main>
+
+<footer class="colophon" role="contentinfo">
+  <div class="shell colophon-grid">
+    <div>
+      <p class="colophon-mark">Monograph.</p>
+      <p>A weekly editorial on the software worth studying. Written, edited, and published in Brooklyn, New York. Typeset in Instrument Serif and Newsreader. Printed, sometimes, on paper.</p>
+    </div>
+    <div>
+      <h4>Read</h4>
+      <ul>
+        <li><a href="../archive.html">Archive</a></li>
+        <li><a href="024-linear.html">Latest Issue</a></li>
+        <li><a href="#">RSS feed</a></li>
+        <li><a href="#">Plain-text edition</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>About</h4>
+      <ul>
+        <li><a href="../about.html">The Publication</a></li>
+        <li><a href="../about.html#ethics">Ethics &amp; Ethos</a></li>
+        <li><a href="../about.html#colophon">Colophon</a></li>
+        <li><a href="../pricing.html">Subscribe</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Elsewhere</h4>
+      <ul>
+        <li><a href="#" rel="noopener noreferrer">Mastodon</a></li>
+        <li><a href="#" rel="noopener noreferrer">Bluesky</a></li>
+        <li><a href="mailto:editor@monograph.press">Write to the editor</a></li>
+        <li><a href="#" rel="noopener noreferrer">Sponsor Monograph</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="shell colophon-bottom">
+    <span>© <span data-year>2026</span> Monograph Editorial Ltd. All correspondence welcome.</span>
+    <span>Est. Volume I, Spring 2024</span>
+  </div>
+</footer>
+
+<script src="../assets/js/main.js" defer></script>
+<script src="../assets/js/signup.js" defer></script>
+</body>
+</html>

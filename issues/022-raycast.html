@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; script-src 'self'; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'; object-src 'none'; upgrade-insecure-requests">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="robots" content="index, follow">
+<meta name="color-scheme" content="light">
+<meta name="theme-color" content="#F1ECDD">
+<title>№ 22 — The Keyboard as Interface · Monograph</title>
+<meta name="description" content="Raycast and the return of command-line ergonomics to the graphical desktop.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Newsreader:ital,opsz,wght@0,6..72,300..700;1,6..72,300..700&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="../assets/css/main.css">
+
+<link rel="canonical" href="/issues/022-raycast.html">
+</head>
+<body>
+
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="masthead" role="banner">
+  <div class="shell masthead-inner">
+    <div class="masthead-left">
+      <span>Vol. III · №&nbsp;22</span>
+      <span>Tuesday, 31 March 2026</span>
+    </div>
+    <h1 class="wordmark"><a href="../index.html" aria-label="Monograph, home">Monograph</a></h1>
+    <nav class="masthead-right" aria-label="Primary">
+      <a href="../archive.html">Issues</a>
+      <a href="../about.html" data-minor>About</a>
+      <a href="../pricing.html">Subscribe</a>
+    </nav>
+  </div>
+  <div class="masthead-sub">
+    <div class="masthead-sub-inner">
+      <span>A weekly correspondence on software worth studying.</span>
+      <span>One product · every Tuesday · read slowly</span>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+<article class="article">
+
+<header class="article-head">
+  <div class="shell">
+    <p class="article-meta">
+      <span>Issue <span class="accent">№&nbsp;22</span></span>
+      <span>Volume III</span>
+      <span>31 March 2026</span>
+      <span>10 min read</span>
+    </p>
+    <h1 class="article-title">The Keyboard<br>as <em>Interface.</em></h1>
+    <p class="article-dek">Raycast is a launcher, a clipboard, a snippet manager, a calculator, and a quiet argument that the desktop should have stayed typed.</p>
+    <p class="article-byline">
+      <span>Essay by <strong>The Editors</strong></span>
+      <span>Subject: <strong>Raycast</strong></span>
+      <span>Filed: London</span>
+    </p>
+  </div>
+</header>
+
+<div class="article-body">
+  <div class="shell">
+
+    <p>In 1984 the Macintosh taught the world that software should be pointed at. Four decades later, the best productivity tool on a Mac is one that refuses to be pointed at. Raycast is a plain black window that appears when you strike <code>Option&thinsp;+&thinsp;Space</code> and disappears when you stop typing. It is, quietly, the most interesting thing happening on the desktop.</p>
+
+    <p>Raycast is often described as a replacement for Spotlight, which understates it. Spotlight searches your files; Raycast does, too, but almost as an afterthought. The real Raycast is a command surface &mdash; a keyboard-first way to run any action on your computer, or on any of the services you use, without ever lifting your hands or opening a window. The nearest historical analogue is not Spotlight. It is the Unix shell.</p>
+
+    <h2>The command line, rediscovered</h2>
+
+    <p>We have spent forty years explaining to new computer users that they should not have to type. We were wrong, or at least incomplete. What users should not have to type is the boring stuff &mdash; filenames with extensions, absolute paths, arcane flags. What they should get to type is <em>intent</em>. &lsquo;Move the Linear ticket I was just looking at into the Done column.&rsquo; &lsquo;Start a timer.&rsquo; &lsquo;Open the Figma file called onboarding.&rsquo; These sentences are all shorter and more specific than the equivalent sequence of clicks.</p>
+
+    <p>Raycast&rsquo;s bet is that a modern command surface can surface intent cheaply: fuzzy-matched, reorderable by recency, deeply integrated with the apps you already use. Typing becomes navigation again, the way it was on Vi, the way it was in Alfred, the way it always should have been on the GUI side of the fence.</p>
+
+    <blockquote>If you watch a heavy Raycast user, they look less like someone operating a computer and more like someone operating a musical instrument.</blockquote>
+
+    <h2>The extension store as platform bet</h2>
+
+    <p>The quietly radical decision was the Store. A developer can write a Raycast extension in TypeScript, in an afternoon, and publish it to the whole community. The store has accumulated thousands of these &mdash; an extension for every SaaS, every internal tool, every small workflow. Each extension is just a set of commands typed at the launcher. This is Unix all over again: small tools, piped together, authored by anyone, invoked by anyone.</p>
+
+    <p>The elegance of this choice is that it turns Raycast into a platform with almost no incremental cost to the core team. Most of Raycast&rsquo;s value, for most of its users, was written by someone else. The core team can focus on the surface area &mdash; performance, API, sandboxing &mdash; while the long tail of utility piles up in the store. It is the App Store model, but aimed at the ten percent of users who know what they want.</p>
+
+    <hr class="sectbreak">
+
+    <h3>On small frictions</h3>
+
+    <p>Productivity software usually promises to save you minutes. Raycast saves seconds, many times a day, and this turns out to be qualitatively different. A minute-shaving tool earns thanks; a second-shaving tool earns muscle memory. Muscle memory earns loyalty. Loyalty earns a paid tier.</p>
+
+    <p>The economics of second-shaving are underappreciated. Every time you need to raise your hand off the keyboard to grab the mouse, the cost is not just the physical motion &mdash; it is the thought that gets interrupted. Raycast&rsquo;s thesis, though they would not phrase it this way, is that flow is a compound interest calculation. Small interruptions, compounded across a day, eat your afternoon. Eliminate the interruptions and the afternoon returns.</p>
+
+    <div class="pullquote">
+      <p class="pullquote-text">Raycast does not save you time. It saves you attention, which is the thing you actually cannot get back.</p>
+    </div>
+
+    <h2>The AI graft</h2>
+
+    <p>Raycast&rsquo;s AI surface, added in 2023 and enlarged since, is the cleverest integration of a large language model into a desktop we have seen. It is not a chat window. It is not a sidebar. It is a new type of command: &lsquo;ask AI,&rsquo; with the rest of Raycast&rsquo;s context available to the model. You can summarise the text in your clipboard, rewrite a paragraph you just wrote, query a documentation set, or ask for a bash incantation, all at the same keystroke as every other command.</p>
+
+    <p>This is the correct placement for AI on the desktop. The LLM is not a destination; it is a primitive. It is a function you can call alongside other functions. Raycast&rsquo;s instinct was to demote it &mdash; to make it one command among many, addressable the same way &mdash; and by demoting it, made it more useful. Compare with the endless pop-over chat windows that have infested every other app: tabs glued on the side of a tab bar, looking for a job.</p>
+
+    <h2>The risk of the long tail</h2>
+
+    <p>There are genuine weaknesses. The store&rsquo;s long tail is also its liability: extension quality varies wildly, some packages stop being maintained, and the permissions model is still young. Raycast&rsquo;s team has been careful and unfailingly responsive about these issues, but the economics of a platform always reward neglect more than they reward care, and a bigger Raycast will have to solve this without slowing down.</p>
+
+    <p>There is also the cross-platform problem. Raycast is Mac-only and has been for years. Every few months the team hints at a Windows release; every few months it slips. The longer this takes, the harder it is to keep Raycast positioned as the command surface for work &mdash; because half the knowledge workers in the world do not use a Mac.</p>
+
+    <h2>What to learn</h2>
+
+    <p>The lesson of Raycast is the same as the lesson of the command bar in Linear, but clearer: users who know what they want, given a fast way to say it, become remarkably loyal. The right unit of loyalty is not the screen the user looks at most; it is the keyboard shortcut the user reaches for without thinking. If you can invade a user&rsquo;s muscle memory, you have a customer who will stay.</p>
+
+    <p>If you are building for power users and your product currently surfaces its best commands three menus deep, you have work to do. The market is moving toward the typed interface, in the quiet, unglamorous way that real markets move. Raycast is the tool to watch as it does.</p>
+
+  </div>
+</div>
+
+<footer class="article-footer">
+  <div class="shell article-footer-grid">
+    <div>
+      <h4>Read next Tuesday</h4>
+      <p>Next week, №&nbsp;23: Arc Browser and the quiet rebellion against the tab.</p>
+    </div>
+    <div>
+      <form class="signup-form" data-signup data-source="issue-22" action="/api/subscribe" method="post" novalidate style="box-shadow:6px 6px 0 var(--ink);">
+        <label class="label" for="email-22">Get next Tuesday&rsquo;s essay</label>
+        <div class="field">
+          <input type="email" id="email-22" name="email" placeholder="reader@example.com" autocomplete="email" maxlength="254" spellcheck="false" required>
+          <button type="submit" class="btn">Subscribe</button>
+        </div>
+        <div class="hp-field" aria-hidden="true">
+          <label for="hp-22">Leave this field empty</label>
+          <input type="text" id="hp-22" name="website" tabindex="-1" autocomplete="off">
+        </div>
+        <p class="form-status" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </div>
+</footer>
+
+<section class="related">
+  <div class="shell">
+    <h3>Previously on Monograph</h3>
+    <div class="related-grid">
+
+      <a class="issue-card" href="021-things.html">
+        <div class="thumb">
+          <div class="cover cover--things">
+            <div class="cover-head"><span>Monograph</span><span>№&nbsp;21</span></div>
+            <div class="cover-title">Seventeen<br>Years of No.</div>
+            <div class="cover-foot"><span>Things 3</span><span>2026</span></div>
+            <div class="cover-num">21</div>
+          </div>
+        </div>
+        <div class="meta"><span>№&nbsp;21</span><span>11 min</span></div>
+        <h3>Seventeen Years of No</h3>
+        <p class="subject">Things 3</p>
+      </a>
+
+      <a class="issue-card" href="020-figma.html">
+        <div class="thumb">
+          <div class="cover cover--figma">
+            <div class="cover-head"><span>Monograph</span><span>№&nbsp;20</span></div>
+            <div class="cover-title">The<br>Multiplayer<br>Bet.</div>
+            <div class="cover-foot"><span>Figma</span><span>2026</span></div>
+            <div class="cover-num">20</div>
+          </div>
+        </div>
+        <div class="meta"><span>№&nbsp;20</span><span>14 min</span></div>
+        <h3>The Multiplayer Bet</h3>
+        <p class="subject">Figma</p>
+      </a>
+
+      <a class="issue-card" href="019-notion.html">
+        <div class="thumb">
+          <div class="cover cover--notion">
+            <div class="cover-head"><span>Monograph</span><span>№&nbsp;19</span></div>
+            <div class="cover-title">The Lego<br>Problem.</div>
+            <div class="cover-foot"><span>Notion</span><span>2026</span></div>
+            <div class="cover-num">19</div>
+          </div>
+        </div>
+        <div class="meta"><span>№&nbsp;19</span><span>12 min</span></div>
+        <h3>The Lego Problem</h3>
+        <p class="subject">Notion</p>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+</article>
+
+</main>
+
+<footer class="colophon" role="contentinfo">
+  <div class="shell colophon-grid">
+    <div>
+      <p class="colophon-mark">Monograph.</p>
+      <p>A weekly editorial on the software worth studying. Written, edited, and published in Brooklyn, New York. Typeset in Instrument Serif and Newsreader. Printed, sometimes, on paper.</p>
+    </div>
+    <div>
+      <h4>Read</h4>
+      <ul>
+        <li><a href="../archive.html">Archive</a></li>
+        <li><a href="024-linear.html">Latest Issue</a></li>
+        <li><a href="#">RSS feed</a></li>
+        <li><a href="#">Plain-text edition</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>About</h4>
+      <ul>
+        <li><a href="../about.html">The Publication</a></li>
+        <li><a href="../about.html#ethics">Ethics &amp; Ethos</a></li>
+        <li><a href="../about.html#colophon">Colophon</a></li>
+        <li><a href="../pricing.html">Subscribe</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Elsewhere</h4>
+      <ul>
+        <li><a href="#" rel="noopener noreferrer">Mastodon</a></li>
+        <li><a href="#" rel="noopener noreferrer">Bluesky</a></li>
+        <li><a href="mailto:editor@monograph.press">Write to the editor</a></li>
+        <li><a href="#" rel="noopener noreferrer">Sponsor Monograph</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="shell colophon-bottom">
+    <span>© <span data-year>2026</span> Monograph Editorial Ltd. All correspondence welcome.</span>
+    <span>Est. Volume I, Spring 2024</span>
+  </div>
+</footer>
+
+<script src="../assets/js/main.js" defer></script>
+<script src="../assets/js/signup.js" defer></script>
+</body>
+</html>

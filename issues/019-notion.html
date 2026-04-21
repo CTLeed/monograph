@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; script-src 'self'; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'; object-src 'none'; upgrade-insecure-requests">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="robots" content="index, follow">
+<meta name="color-scheme" content="light">
+<meta name="theme-color" content="#F1ECDD">
+<title>№ 19 — The Lego Problem · Monograph</title>
+<meta name="description" content="Notion's long-running trade-off between flexibility and opinion, freshly examined.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Newsreader:ital,opsz,wght@0,6..72,300..700;1,6..72,300..700&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="../assets/css/main.css">
+
+<link rel="canonical" href="/issues/019-notion.html">
+</head>
+<body>
+
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="masthead" role="banner">
+  <div class="shell masthead-inner">
+    <div class="masthead-left">
+      <span>Vol. III · №&nbsp;19</span>
+      <span>Tuesday, 10 March 2026</span>
+    </div>
+    <h1 class="wordmark"><a href="../index.html" aria-label="Monograph, home">Monograph</a></h1>
+    <nav class="masthead-right" aria-label="Primary">
+      <a href="../archive.html">Issues</a>
+      <a href="../about.html" data-minor>About</a>
+      <a href="../pricing.html">Subscribe</a>
+    </nav>
+  </div>
+  <div class="masthead-sub">
+    <div class="masthead-sub-inner">
+      <span>A weekly correspondence on software worth studying.</span>
+      <span>One product · every Tuesday · read slowly</span>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+<article class="article">
+
+<header class="article-head">
+  <div class="shell">
+    <p class="article-meta">
+      <span>Issue <span class="accent">№&nbsp;19</span></span>
+      <span>Volume III</span>
+      <span>10 March 2026</span>
+      <span>12 min read</span>
+    </p>
+    <h1 class="article-title">The Lego<br><em>Problem.</em></h1>
+    <p class="article-dek">Notion&rsquo;s long bet is that the customer will build their own tool. Every year, it gets a little harder to tell if that bet is paying off.</p>
+    <p class="article-byline">
+      <span>Essay by <strong>The Editors</strong></span>
+      <span>Subject: <strong>Notion</strong></span>
+      <span>Filed: San Francisco</span>
+    </p>
+  </div>
+</header>
+
+<div class="article-body">
+  <div class="shell">
+
+    <p>If you want to understand Notion, it helps to think of Lego. Lego sells two products, simultaneously and eternally: the bricks, and the kits. The bricks are pure possibility &mdash; general-purpose, open-ended, able to become anything a child imagines. The kits are pure instruction &mdash; the Millennium Falcon, the Hogwarts castle, the dinosaur &mdash; where the child&rsquo;s job is to follow the diagram, in order, until the thing looks like the picture on the box.</p>
+
+    <p>Lego has been selling more and more kits, and fewer and fewer tubs of bricks, for thirty years. The reason is simple: kits are easier to market, easier to gift, easier to finish, and easier to love. Bricks are harder. A tub of bricks is a request for imagination, and imagination has gone out of fashion.</p>
+
+    <p>Notion sells bricks. Its animating idea, since 2016, has been that the customer should assemble their own tool from a small set of flexible primitives &mdash; pages, blocks, databases, relations. The result is a product that can become a wiki, a CRM, a project tracker, a journal, a mood board, a recipe index, a household management system, or a small software company&rsquo;s entire operating memory. The product does not tell you which of these to build; it tells you that you can build them all.</p>
+
+    <h2>The case for bricks</h2>
+
+    <p>At its best, the Lego model is intoxicating. A Notion power user in full flight has a personal operating system more expressive than any off-the-shelf tool could provide. The template gallery, which functions as Notion&rsquo;s kit catalogue, is a quiet testimony to how far this can go: a second-brain setup, a production calendar, a product-spec template, a reading log, each the loving work of someone who has built something real with the same blocks you have.</p>
+
+    <p>The underlying engineering decisions are elegant. Every page is a list of blocks; every block can be dragged, nested, or converted; every database is a type of page; every page is a type of database row. The consistency is remarkable. Few tools have committed this hard to a single metaphor and seen it through to the corners of the product.</p>
+
+    <blockquote>The problem with bricks is that most people want a dinosaur.</blockquote>
+
+    <h2>The case against bricks</h2>
+
+    <p>The problem is that most users do not want to design a tool. They want a tool. They want to open an app and be shown where to write the meeting note, where to file the recipe, where to schedule tomorrow&rsquo;s to-dos. The promise of infinite flexibility is also, quite often, the promise of unbounded setup.</p>
+
+    <p>Every Notion user has the same moment, sometime in their first week, when they stare at the empty page and think: <em>I am the one who has to decide.</em> Some users find this liberating. More users find it exhausting. The difference between these two responses is what separates Notion&rsquo;s evangelists from its churners, and the churners are not a small group.</p>
+
+    <p>The templates are supposed to solve this, and they partially do. Pick a template, and the blank page becomes a furnished room. But templates only work if the user knows what they are building in the first place, which returns us to the original problem. A user who knows what they are building does not need a general-purpose tool; they need a good specific tool. A user who does not know what they are building cannot be helped by a template they did not request.</p>
+
+    <hr class="sectbreak">
+
+    <h3>The AI detour</h3>
+
+    <p>Notion&rsquo;s response, in the last three years, has been to bet that AI will solve the brick-versus-kit problem by <em>generating</em> the kit on demand. Ask Notion AI to set up a project tracker, and it sets one up. Ask it to summarise a page, and it does. The bet is that AI can make the flexibility of Notion feel less like a burden and more like a promise.</p>
+
+    <p>It is too early to know if the bet will pay off. The AI features work, in the careful way that AI features work: well enough to impress, not well enough to depend on. What they have not yet done is solve the deeper problem, which is that most users do not want to configure their own tool even if the configuring is done by a chatbot. They want the tool to already know what they need.</p>
+
+    <p>This is the part of the argument we find most interesting. If Notion AI becomes good enough, the underlying Notion product becomes invisible &mdash; the user describes the tool they want and it appears, brick by brick, without the user ever seeing the bricks. If this works, Notion&rsquo;s original decision &mdash; to expose the primitives &mdash; turns out to have been the correct one, because the AI needs those primitives to build with. If it does not work, Notion spends the next decade slowly adding opinion to the product, one feature at a time, until it becomes the specific tool it refused to be in the first place.</p>
+
+    <div class="pullquote">
+      <p class="pullquote-text">Either the AI learns to build the dinosaur from the bricks, or Notion learns to ship the dinosaur itself. These are different companies.</p>
+    </div>
+
+    <h2>The enterprise gravity</h2>
+
+    <p>Notion&rsquo;s other complication is the shape of its revenue. The company&rsquo;s fastest-growing segment is enterprise, where the bricks-versus-kits question has a different answer: enterprises genuinely do want to build their own tools, and they have admin budgets to do it. For an enterprise Notion is a wiki, a runbook system, a project tracker, and a onboarding document, all in one, maintained by a small team of internal operators who know the product cold.</p>
+
+    <p>The tension is that enterprise Notion and consumer Notion are not the same product, and the needs are diverging. Enterprises want permissions, audit logs, retention policies, and analytics. Consumers want mobile that does not feel like an apology and a template experience that works the first time. Historically, Notion has handled this duality well; as the enterprise business grows, the gravity will pull the product that way.</p>
+
+    <h2>What to learn</h2>
+
+    <p>Notion is the most interesting ongoing experiment in the flexibility-versus-opinion trade-off that every general-purpose tool eventually faces. The product has survived longer in the open-ended position than we would have predicted; it has added opinion at exactly the pace it needed to; and it has bet, more seriously than any competitor, that AI will eventually resolve the tension in its favour.</p>
+
+    <p>For most builders, the lesson is to recognise which side of this trade-off your product is on, and to accept the costs of that side. A bricks product will be loved passionately by a minority and abandoned quickly by a majority. A kits product will be used dutifully by many and loved by few. You probably cannot be both, no matter how much AI you apply to the seam. Pick, and ship accordingly.</p>
+
+  </div>
+</div>
+
+<footer class="article-footer">
+  <div class="shell article-footer-grid">
+    <div>
+      <h4>Read next Tuesday</h4>
+      <p>Next week, №&nbsp;20: Figma and the multiplayer bet &mdash; six years in the tunnel.</p>
+    </div>
+    <div>
+      <form class="signup-form" data-signup data-source="issue-19" action="/api/subscribe" method="post" novalidate style="box-shadow:6px 6px 0 var(--ink);">
+        <label class="label" for="email-19">Get next Tuesday&rsquo;s essay</label>
+        <div class="field">
+          <input type="email" id="email-19" name="email" placeholder="reader@example.com" autocomplete="email" maxlength="254" spellcheck="false" required>
+          <button type="submit" class="btn">Subscribe</button>
+        </div>
+        <div class="hp-field" aria-hidden="true">
+          <label for="hp-19">Leave this field empty</label>
+          <input type="text" id="hp-19" name="website" tabindex="-1" autocomplete="off">
+        </div>
+        <p class="form-status" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </div>
+</footer>
+
+<section class="related">
+  <div class="shell">
+    <h3>Previously on Monograph</h3>
+    <div class="related-grid">
+
+      <a class="issue-card" href="024-linear.html">
+        <div class="thumb">
+          <div class="cover cover--linear">
+            <div class="cover-head"><span>Monograph</span><span>№&nbsp;24</span></div>
+            <div class="cover-title">The Cult<br>of Craft.</div>
+            <div class="cover-foot"><span>Linear</span><span>2026</span></div>
+            <div class="cover-num">24</div>
+          </div>
+        </div>
+        <div class="meta"><span>№&nbsp;24</span><span>12 min</span></div>
+        <h3>The Cult of Craft</h3>
+        <p class="subject">Linear</p>
+      </a>
+
+      <a class="issue-card" href="022-raycast.html">
+        <div class="thumb">
+          <div class="cover cover--raycast">
+            <div class="cover-head"><span>Monograph</span><span>№&nbsp;22</span></div>
+            <div class="cover-title">The Keyboard<br>as Interface.</div>
+            <div class="cover-foot"><span>Raycast</span><span>2026</span></div>
+            <div class="cover-num">22</div>
+          </div>
+        </div>
+        <div class="meta"><span>№&nbsp;22</span><span>10 min</span></div>
+        <h3>The Keyboard as Interface</h3>
+        <p class="subject">Raycast</p>
+      </a>
+
+      <a class="issue-card" href="020-figma.html">
+        <div class="thumb">
+          <div class="cover cover--figma">
+            <div class="cover-head"><span>Monograph</span><span>№&nbsp;20</span></div>
+            <div class="cover-title">The<br>Multiplayer<br>Bet.</div>
+            <div class="cover-foot"><span>Figma</span><span>2026</span></div>
+            <div class="cover-num">20</div>
+          </div>
+        </div>
+        <div class="meta"><span>№&nbsp;20</span><span>14 min</span></div>
+        <h3>The Multiplayer Bet</h3>
+        <p class="subject">Figma</p>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+</article>
+
+</main>
+
+<footer class="colophon" role="contentinfo">
+  <div class="shell colophon-grid">
+    <div>
+      <p class="colophon-mark">Monograph.</p>
+      <p>A weekly editorial on the software worth studying. Written, edited, and published in Brooklyn, New York. Typeset in Instrument Serif and Newsreader. Printed, sometimes, on paper.</p>
+    </div>
+    <div>
+      <h4>Read</h4>
+      <ul>
+        <li><a href="../archive.html">Archive</a></li>
+        <li><a href="024-linear.html">Latest Issue</a></li>
+        <li><a href="#">RSS feed</a></li>
+        <li><a href="#">Plain-text edition</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>About</h4>
+      <ul>
+        <li><a href="../about.html">The Publication</a></li>
+        <li><a href="../about.html#ethics">Ethics &amp; Ethos</a></li>
+        <li><a href="../about.html#colophon">Colophon</a></li>
+        <li><a href="../pricing.html">Subscribe</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Elsewhere</h4>
+      <ul>
+        <li><a href="#" rel="noopener noreferrer">Mastodon</a></li>
+        <li><a href="#" rel="noopener noreferrer">Bluesky</a></li>
+        <li><a href="mailto:editor@monograph.press">Write to the editor</a></li>
+        <li><a href="#" rel="noopener noreferrer">Sponsor Monograph</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="shell colophon-bottom">
+    <span>© <span data-year>2026</span> Monograph Editorial Ltd. All correspondence welcome.</span>
+    <span>Est. Volume I, Spring 2024</span>
+  </div>
+</footer>
+
+<script src="../assets/js/main.js" defer></script>
+<script src="../assets/js/signup.js" defer></script>
+</body>
+</html>
